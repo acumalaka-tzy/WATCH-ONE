@@ -151,5 +151,3 @@ $totalPages = $total ? (int)ceil($total / $limit) : 1;
 
 </body>
 </html>
-
-hello guys
