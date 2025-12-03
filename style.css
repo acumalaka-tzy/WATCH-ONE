@@ -32,7 +32,7 @@ ul { list-style: none; }
     z-index: 100; pointer-events: none; /* Area kosong tembus klik */
 }
 
-/* Container untuk Mode Normal (Logo + Menu) */
+
 .nav-normal {
     display: flex; justify-content: space-between; align-items: center;
     padding: 0 50px; height: 100%; pointer-events: auto; /* Logo & menu bisa diklik */
@@ -72,12 +72,12 @@ ul { list-style: none; }
     background: transparent; border: none; color: #ccc; cursor: pointer;
 }
 
-/* 2. Tombol Pemicu Mobile (Hilang di Laptop) */
+/* 2. Tombol Search Mobile (Hilang di Laptop) */
 .mobile-search-btn { display: none; }
 
 /* 3. Overlay Search Mobile (Default Hidden) */
 .nav-search-overlay {
-    display: none; /* Hidden by JS */
+    display: none; 
     width: 100%; height: 100%;
     align-items: center; justify-content: space-between; gap: 10px;
     position: absolute; top: 0; left: 0;
@@ -100,7 +100,7 @@ ul { list-style: none; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
 
 /* ===========================
-   PROFILE DROPDOWN (CSS ONLY)
+   PROFILE DROPDOWN
    =========================== */
 .profile-dropdown {
     position: relative; cursor: pointer; height: 100%; display: flex; align-items: center; outline: none;
@@ -199,7 +199,7 @@ ul { list-style: none; }
 .movie-info span { font-size: 0.8rem; color: #888; }
 
 /* ===========================
-   ADMIN DASHBOARD STYLES
+   ADMIN DASHBOARD 
    =========================== */
 .admin-wrapper {
     padding-top: 100px; padding-bottom: 50px; max-width: 1200px; margin: 0 auto; padding-left: 20px; padding-right: 20px;
@@ -219,7 +219,7 @@ ul { list-style: none; }
 }
 .form-dark:focus { border-color: var(--primary-red); box-shadow: 0 0 10px rgba(255, 0, 0, 0.2); }
 
-/* TABEL */
+/* TABLE */
 .admin-table { width: 100% !important; border-collapse: collapse; margin-top: 10px; }
 .admin-table th {
     text-align: left; padding: 15px; border-bottom: 2px solid rgba(255, 255, 255, 0.1);
@@ -228,7 +228,7 @@ ul { list-style: none; }
 .admin-table td {
     padding: 15px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); color: #eee; vertical-align: middle;
 }
-/* Lebar kolom spesifik agar rapi */
+
 .admin-table td:nth-child(2), .admin-table th:nth-child(2) { width: 100%; }
 .admin-table td:first-child, .admin-table th:first-child, 
 .admin-table td:last-child, .admin-table th:last-child { white-space: nowrap; width: 1%; }
@@ -273,7 +273,7 @@ ul { list-style: none; }
    MEDIA QUERY: MOBILE RESPONSIVE
    =========================== */
 @media (max-width: 768px) {
-    /* 1. Navbar & Search */
+    
     .nav-normal { padding: 0 20px; }
     .nav-links { display: none; } /* Sembunyikan menu teks */
     .nav-actions { gap: 5px; }
@@ -286,7 +286,7 @@ ul { list-style: none; }
     }
     .nav-search-overlay { padding: 0 15px; }
 
-    /* 2. Hero Section */
+    
     .hero-overlay {
         padding: 80px 20px 20px 20px; flex-direction: column; text-align: center;
         background: linear-gradient(0deg, #0f0f0f 0%, rgba(15,15,15,0.8) 100%);
@@ -296,13 +296,13 @@ ul { list-style: none; }
     .desktop-only { display: none !important; }
     .btn-group { justify-content: center; }
 
-    /* 3. Grid & Cards */
+    
     .container { padding: 20px; }
     .grid-movies { grid-template-columns: repeat(2, 1fr); gap: 10px; }
     .movie-card img { height: 200px; }
     .movie-info h3 { font-size: 0.85rem; }
 
-    /* 4. Admin & Forms */
+    
     .admin-wrapper { padding: 80px 15px 20px 15px; }
     .table-responsive {
         width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;
@@ -312,16 +312,17 @@ ul { list-style: none; }
     .cat-grid { display: block !important; }
     .cat-grid > div { margin-bottom: 20px; }
     
-    /* Tombol Tabel Kecil */
+    
     .admin-table .btn-glass, .admin-table button {
         padding: 8px 12px !important; font-size: 0.9rem;
     }
     
-    /* Quick Links Full Width */
+    
     .quick-links { flex-direction: column; gap: 10px; }
     .quick-links a { width: 100%; text-align: center; }
     
-    /* Login Form */
+    
     .form-glass { width: 90%; padding: 25px; }
 
 }
+
