@@ -6,7 +6,7 @@ require_once __DIR__ . '/inc/db.php';
 $user = current_user();
 if (!$user || ($user['role'] ?? '') !== 'admin') { header('Location: login.php'); exit; }
 
-// Logic Create & Delete
+// Create & Delete
 $errors = [];
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['create'])) {
@@ -116,4 +116,5 @@ $cats = $pdo->query('SELECT id,name FROM categories ORDER BY name')->fetchAll(PD
   </div>
 </main>
 </body>
+
 </html>
