@@ -1,5 +1,5 @@
 /* ===========================
-   ENJOVIE THEME - MAIN STYLE
+    WATCH ONE MAIN STYLE CSS
    =========================== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
@@ -323,4 +323,5 @@ ul { list-style: none; }
     
     /* Login Form */
     .form-glass { width: 90%; padding: 25px; }
+
 }
