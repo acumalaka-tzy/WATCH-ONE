@@ -10,30 +10,40 @@ manajemen film untuk admin.
 KONTRIBUTOR PROYEK
 =================================================
 
-Frontend (User Page)
-- Ainuha Aliyah
-  * FE User
-  * Index
-  * Category
-  * Header
-  * Favorite
+1. Ainuha
+- front end index
+- front end category film
+- PPT
+- Laporan
 
-Frontend (Admin Page)
-- Izyan
-  * FE Home Admin
-  * FE Pengelolaan Film
+2. Aliyah
+- front end header
+- bagian search film
+- front end favorite
+- toggle favorit 
+- PPT 
+- Laporan 
 
-CSS (Semua Bagian)
-- William
-- Naufal
+3. Gabriel
+- All back end
+- buat database
+- history
+- Kelola user 
+- Kelola Kategori 
 
-Backend (PHP & Database)
-- Gabriel
-  * Backend PHP + koneksi database
-  * Backend + Frontend History
-  * Backend + Frontend Admin Kelola User
-  * Backend + Frontend Admin Kelola Kategori
+4. Izyan
+- front end index admin
+- front end kelola film
+- Drop down profil
 
+5. Naufal
+- membantu menyamakan semua Style css ke semua code
+- Laporan
+
+6. William
+- bertanggung jawab membuat style css juga untk semua link dan webpage 
+- Membuat PP di akun 
+- membuat Readme
 
 =================================================
 FITUR UTAMA
