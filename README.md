@@ -190,5 +190,4 @@ KONTRIBUSI
 3. Commit perubahan
 4. Ajukan pull request
 
-
-
+Link Canva Presentation : https://www.canva.com/design/DAG6d82NwnI/sBkZNy5rl2V9i-e_7yDLCQ/edit?utm_content=DAG6d82NwnI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
