@@ -111,7 +111,7 @@ CARA INSTALASI
 =================================================
 
 1. Clone / download proyek:
-   git clone https://github.com/username/WatchOne.git
+   git clone https://github.com/acumalaka-tzy/WATCH-ONE.git
 
 2. Pindahkan ke folder htdocs:
    C:/xampp/htdocs/WatchOne/
