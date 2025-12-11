@@ -11,16 +11,18 @@ KONTRIBUTOR PROYEK
 =================================================
 
 1. Ainuha
-- front end index
-- front end category film
+- Front end index
+- Front end category film
 - PPT
 - Laporan
+- Menambahkan film
 
 2. Aliyah
-- front end header
-- bagian search film
-- front end favorite
-- toggle favorit 
+- Front end header
+- Bagian search film
+- Front end favorite
+- Toggle favorit 
+- Menambahkan film
 - PPT 
 - Laporan 
 
@@ -30,20 +32,26 @@ KONTRIBUTOR PROYEK
 - history
 - Kelola user 
 - Kelola Kategori 
+- Menambahkan film
+- Buat Account Settings
+- Merapikan code yang udah dikirim setiap member
+- Memasukkan ke GitHub (dikarenakan kebanyakan dari anggota masih gaptek dalam pemakaian GitHub, jadi yang memasukkan hanya 1 orang saja)
 
 4. Izyan
 - front end index admin
-- front end kelola film
+- front end kelola film dan menambahkan film
 - Drop down profil
 
 5. Naufal
 - membantu menyamakan semua Style css ke semua code
+- Menambahkan film
 - Laporan
 
 6. William
-- bertanggung jawab membuat style css juga untk semua link dan webpage 
+- Bertanggung jawab membuat style css juga untk semua link dan webpage
 - Membuat PP di akun 
-- membuat Readme
+- Menambahkan film
+- Membuat Readme
 
 =================================================
 FITUR UTAMA
